@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,900');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overscroll-behavior: none;
+}
+
+canvas {
+  display: block;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#credits {
+  position: fixed;
+  color: #38a3a5;
+	width: 100%;
+  font-size: 15px;
+	font-weight: 600;
+  font-family: "Poppins";  left: 0;
+  letter-spacing: 1px;
+  bottom: 0px;
+  left: 0px;
+  line-height: 1.5;
+  padding: 20px;
+  text-align: center;
+}
+
+#credits a {
+  color: #52b69a;
+  text-decoration: underline;
+}
